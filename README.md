@@ -6,6 +6,6 @@ It utilizes the Skyfall and ExchangeRates APIs in order to gather a display this
 The page also allows you to save cards you would like to return to later.
 
 It can be viewed here:
-https://whelant.github.io/Project-1/
+https://motoroboto.github.io/mtgcurrencyconverter/
 
 <img src="https://github.com/whelant/Project-1/blob/main/assets/screenshot.png">
