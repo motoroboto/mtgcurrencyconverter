@@ -28,8 +28,8 @@ function displayCard() {
         $('.cardFace').replaceWith('<img class="cardFace" src="' + cardImage + '">');
         $('.othr').remove();
         $('.pthr').remove();
-        $('.name').replaceWith('<h2 class="name">' + response.name + '</h2>');
-        $('.cost').replaceWith('<p class="cost">' + response.mana_cost + '</p>');
+        $('.name').replaceWith('<h2 class="name">' + response.name + ' <span class="cost"></span></h2>');
+        $('.cost').replaceWith('<span class="cost level-right">' + response.mana_cost + '</span>');
         $('.cardType').replaceWith('<p class="cardType">' + response.type_line + '</p>');
         if (response.oracle_text != null) {
             $('.oracleText').replaceWith('<hr class="rounded othr"><p class="oracleText">' + response.oracle_text + '</p>');
